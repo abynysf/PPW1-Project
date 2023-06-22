@@ -18,7 +18,7 @@ Website profil diri atau portfolio bertujuan untuk mempresentasikan identitas da
 
 **Kriteria Penilaian**
 
-======================================================================================
+===========================================================================
 
 **1. Desain :**
 - Menggunakan navigation bar untuk memudahkan pengguna untuk melakukan navigasi
@@ -38,7 +38,7 @@ Website profil diri atau portfolio bertujuan untuk mempresentasikan identitas da
   <i class="bi bi-list mobile-nav-toggle"></i>
 </nav><!-- .navbar -->
 ```
-======================================================================================
+===========================================================================
 
 **2. Website bersifat responsif untuk mobile, tablet dan desktop :**
 
@@ -111,7 +111,7 @@ c) Responsif terhadap Layar Mobile:
 - Pada layar mobile atau perangkat dengan ukuran layar yang sangat kecil, Bootstrap akan mengatur ulang tata letak elemen secara otomatis untuk memastikan keterbacaan dan tampilan yang baik.
 - Dalam kode di atas, menggunakan kelas "img-fluid" pada elemen gambar (img) untuk memastikan gambar menyesuaikan ukuran kontainer dan tidak terlalu memanjang atau membesar secara tidak wajar pada layar mobile.
 
-======================================================================================
+===========================================================================
 
 **3. Direct feedback ke pengguna website :**
 
@@ -139,7 +139,7 @@ Penjelasan :
 
 - Setelah pengguna mengirimkan datanya, mulai line 128 akan ada notifikasi yang muncul untuk memberitahu pengguna apakah data yang dimasukkan sudah terdata ke database atau tidak.
   
-======================================================================================
+===========================================================================
 
 **4. Konten dinamis dari database :**
 
