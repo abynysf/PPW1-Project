@@ -5,7 +5,7 @@ NIM : 22/506156/SV/22088
 
 import file "portfolio.sql" ke phpmyadmin lalu jalankan ke "localhost/portfolio/"
 
-**WEBSITE PORTFOLIO**
+**WEBSITE PROFIL DIRI**
 
 Website profil diri atau portfolio bertujuan untuk mempresentasikan identitas dan karya seseorang secara online. Website profil diri akan memberikan ruang untuk menggambarkan keahlian, pengalaman kerja, dan pendidikan individu. Hal ini membantu klien untuk memperlihatkan kompetensinya kepada pengunjung dan calon klien atau perekrut.
 
@@ -16,3 +16,24 @@ Website profil diri atau portfolio bertujuan untuk mempresentasikan identitas da
 3. Referensi dan testimoni: Website profil diri dapat mencantumkan referensi atau testimoni dari klien atau klien sebelumnya, memberikan bukti nyata tentang kemampuan dan kualitas pekerjaan klien. Hal ini dapat membangun kepercayaan dan membantu mengamankan proyek atau kesempatan baru.
 4. Pembaruan konten: Website profil diri dapat diperbarui secara teratur dengan informasi terbaru, proyek-proyek terkini, atau prestasi baru. Dengan demikian, klien dapat menjaga relevansi dan memberikan informasi yang up-to-date kepada pengunjung.
 
+**Kriteria Penilaian**
+
+**1. Desain**
+- Menggunakan navigation bar untuk memudahkan pengguna untuk melakukan navigasi
+- Desain yang konsisten
+- tipografi yang jelas
+======================================================================================
+        <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+======================================================================================
+**2. **
+- Website bersifat responsif untuk mobile, tablet dan desktop
