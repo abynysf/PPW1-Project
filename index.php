@@ -558,6 +558,12 @@ $data = mysqli_fetch_assoc($result);
 
           $contact = "INSERT INTO `contact` (`name`, `email`, `subject`, `message`) VALUES ('$name', '$email', '$subject', '$message')";
           mysqli_query($con, $contact);
+
+          if (mysqli_affected_rows($con) > 0) {
+            echo "<p class='text-success'>Message sent successfully!</p>";
+          } else {
+            echo "<p class='text-danger'>Failed to send message. Please try again later.</p>";
+          }
         }
       ?>
       <form action="#" method="post" class="mt-4">
